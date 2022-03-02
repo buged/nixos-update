@@ -1,7 +1,7 @@
 ﻿{ config, pkgs, ... }:
 {
   # Set the name hostname of the machine.
-  networking.hostName = "lenovo";
+  networking.hostName = "lenovo-nixos";
 
   # Enable SSH but disable root logins.
   services.openssh = {
